@@ -1,7 +1,5 @@
 package AddTwoNum;
 
-import java.util.Arrays;
-import java.util.LinkedList;
 
 class ListNode {
       int val;
@@ -28,7 +26,8 @@ public class AddTwoNumbers {
 
         ListNode head = new ListNode(0);
 
-        while (l1 != null && l2 != null || addition == 1){
+        while (l1 != null || l2 != null || addition == 1){
+
             if(l1 != null && l2 != null) {
                 int sum = l1.val + l2.val + addition;
                 if (sum >= 10) {
@@ -42,11 +41,36 @@ public class AddTwoNumbers {
                 l1 = l1.next;
                 l2 = l2.next;
             }
+            else if(l1 != null && l2 == null){
+                int sum = l1.val + addition;
+                if (sum >= 10) {
+                    insert(head, sum % 10);
+                    addition = 1;
+                } else {
+                    insert(head, sum);
+                    addition = 0;
+                }
+
+                l1 = l1.next;
+            }
+            else if(l1 == null && l2 != null){
+                int sum = l2.val + addition;
+                if (sum >= 10) {
+                    insert(head, sum % 10);
+                    addition = 1;
+                } else {
+                    insert(head, sum);
+                    addition = 0;
+                }
+
+                l2 = l2.next;
+            }
             else {
                 insert(head, addition);
                 addition = 0;
             }
         }
+
 
         return head.next;
     }
