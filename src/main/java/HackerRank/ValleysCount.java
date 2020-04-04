@@ -1,4 +1,4 @@
-package ValleysCount;
+package HackerRank;
 
 import java.util.Arrays;
 

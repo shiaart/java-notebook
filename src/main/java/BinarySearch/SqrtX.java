@@ -1,4 +1,4 @@
-package SqrtX;
+package BinarySearch;
 
 public class SqrtX {
     public static void main(String[] args) {

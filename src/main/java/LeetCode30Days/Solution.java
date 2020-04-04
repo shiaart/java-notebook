@@ -1,4 +1,4 @@
-package SingleNumber;
+package LeetCode30Days;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package FirstBadVersion;
+package BinarySearch;
 
 
 public class FirstBadVersion {

@@ -1,4 +1,4 @@
-package MaximumSubarray;
+package LeetCode30Days;
 
 public class MaximumSubarray {
 

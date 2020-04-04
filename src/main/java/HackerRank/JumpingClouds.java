@@ -1,4 +1,4 @@
-package JumpingClouds;
+package HackerRank;
 
 import java.security.InvalidParameterException;
 
