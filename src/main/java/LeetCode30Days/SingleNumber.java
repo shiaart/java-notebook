@@ -3,7 +3,7 @@ package LeetCode30Days;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class SingleNumber {
     public static void main(String[] args){
         singleNumber(new int[]{1,3,4,1,0,3,4});
     }
