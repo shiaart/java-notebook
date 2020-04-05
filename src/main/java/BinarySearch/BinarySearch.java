@@ -16,7 +16,7 @@ public class BinarySearch {
                 return binarySearch(array, index + 1, j, target);
             }
             else if(array[index] > target){
-                return binarySearch(array, i, index - 1, target);
+                return binarySearch(array, i, index, target);
             }
         }
 
