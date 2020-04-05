@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearchLeetCode;
 
 import java.util.ArrayList;
 import java.util.List;

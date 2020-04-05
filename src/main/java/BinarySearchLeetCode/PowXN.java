@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearchLeetCode;
 
 public class PowXN {
     public static void main(String[] args) {

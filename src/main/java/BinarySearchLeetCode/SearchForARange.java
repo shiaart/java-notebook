@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearchLeetCode;
 
 public class SearchForARange {
     public static void main(String[] args) {
