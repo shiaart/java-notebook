@@ -1,4 +1,4 @@
-package BinarySearchLeetCode;
+package LeetCode30Days;
 
 public class BestTimeBuySellStock2 {
     public static void main(String[] args) {
